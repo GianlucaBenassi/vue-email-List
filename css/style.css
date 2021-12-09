@@ -3,3 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#root {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+
+h1,
+.list {
+    padding: 15px 30px;
+    border-radius: 20px;
+}
+
+h1 {
+    background-color: #14213d;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.list {
+    background-color: #fca311;
+}
+
+.list ul {
+    list-style: none;
+}
+
+.list ul li {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}

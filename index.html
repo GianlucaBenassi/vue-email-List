@@ -13,12 +13,18 @@
 <body>
     
     <div id="root">
+
         <h1>Random emails list:</h1>
-        <ul>
-            <li v-for="(mail, i) in emails" v-if="emails.length == 10">
-                {{emails[i]}}
-            </li>
-        </ul>
+
+        <div class="list">
+            <ul v-if="emails.length == 10">
+                <li v-for="(mail, i) in emails">
+                    {{emails[i]}}
+                </li>
+            </ul>
+            <h2 v-else>Loading...</h2>
+        </div>
+        
     </div>
 
 
